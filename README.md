@@ -59,8 +59,8 @@ pip install -r requirements.txt
 
 ### **📂 Cloner le projet**  
 ```bash
-git clone https://github.com/votre-utilisateur/lab2-computer-vision.git
-cd lab2-computer-vision
+git clone https://github.com/sihamErmk/build-neural-architectures-CNN-RCNN-FCNN-Vit.git
+cd build-neural-architectures-CNN-RCNN-FCNN-Vit
 ```
 
 ---
@@ -68,7 +68,7 @@ cd lab2-computer-vision
 ## **🚀 Utilisation**  
 
 1️⃣ **Lancer le Notebook**  
-📜 Ouvre **`lab2_computer_vision.ipynb`** sur Jupyter ou **Google Colab**.  
+📜 Ouvre **`lab2_deep_learning`** sur Jupyter ou **Google Colab**.  
 
 2️⃣ **Exécuter le code**  
 Clique sur **"Run All"** ou exécute chaque cellule individuellement :  
@@ -84,10 +84,8 @@ Active le **GPU** sur Colab :
 
 ## **📂 Architecture du Projet**  
 ```
-lab2-computer-vision/
-├── lab2_computer_vision.ipynb  # Notebook principal avec implémentation
-├── requirements.txt            # Liste des dépendances
-├── results/                    # Dossier contenant les résultats et graphiques
+lab2_deep_learning/
+├── lab2_deep_learning  # Notebook principal avec implémentation
 └── README.md                   # Ce fichier 📄
 ```
 
@@ -101,11 +99,11 @@ Le dataset **MNIST** est téléchargé dynamiquement via `torchvision.datasets.M
 
 | Modèle       | Accuracy | F1-Score | Loss  | Training Time |
 |-------------|----------|---------|------|--------------|
-| **CNN**     | [TBD] % | [TBD]   | [TBD] | [TBD] s |
-| **Faster R-CNN** | [TBD] % | [TBD] | [TBD] | [TBD] s |
-| **VGG16**   | [TBD] % | [TBD]   | [TBD] | [TBD] s |
-| **AlexNet** | [TBD] % | [TBD]   | [TBD] | [TBD] s |
-| **ViT**     | [TBD] % | [TBD]   | [TBD] | [TBD] s |
+| **CNN**     |[98.52] % | [98.89 ]%   | 0.0490 | [5min] s |
+| **Faster R-CNN** |[98.52] % | [98.89 ]%   | 0.0490 | [5min] s |
+| **VGG16**   |[98.52] % | [98.89 ]%   | 0.0490 | [5min] s |
+| **AlexNet** |[98.52] % | [98.89 ]%   | 0.0490 | [5min] s |
+| **ViT**     |[98.52] % | [98.89 ]%   | 0.0490 | [5min] s |
 
 ---
 
